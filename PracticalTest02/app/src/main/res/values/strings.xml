@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practical Test 02</string>
+    <string name="poketype">Pokemon Name</string>
+    <string name="information_type">Information Type</string>
+    <string name="get_pokemon">Get Pokemon Details</string>
+    <string-array name="information_types">
+        <item>types</item>
+        <item>abilities</item>
+    </string-array>
+</resources>
