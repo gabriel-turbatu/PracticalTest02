@@ -44,19 +44,22 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="600px">
 
-        <ImageView
+        <TextView
             android:id="@+id/pokemon_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/pokemon_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="10"/>
-
     </ScrollView>
-
 </LinearLayout>
